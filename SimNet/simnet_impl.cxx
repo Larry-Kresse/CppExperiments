@@ -7,6 +7,7 @@ SimNet::SimNet() {
 
 	std::cout << "SimNet object created" << std::endl;
 
+	this->networks.push_back(Network());
 }
 
 

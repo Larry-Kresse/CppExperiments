@@ -10,3 +10,7 @@ target_sources(SimNet
     FILES
       simnet.h
 )
+
+set(SOURCES Network/network.cxx Network/network.h)
+add_subdirectory(Network)
+
