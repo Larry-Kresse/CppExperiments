@@ -1,6 +1,6 @@
 
 
-#include "include/simnet.h"
+#include "simnet.h"
 
 
 SimNet::SimNet() {

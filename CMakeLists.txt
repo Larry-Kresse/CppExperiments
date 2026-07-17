@@ -22,19 +22,7 @@ target_sources(CppExperiments
 # - data-heavy (learn data-oriented design)
 # - compute-heavy (learn multithreading!)
 # - abstraction-heavy (get better at architecture)
-add_library(SimNet)
-
-target_sources(SimNet
-  PRIVATE
-    simnet_impl.cxx
-
-  PUBLIC
-    FILE_SET HEADERS
-    BASE_DIRS
-      include
-    FILES
-      include/simnet.h
-)
+add_subdirectory(SimNet)
 
 #link simnet to CppExperiments
 target_link_libraries(CppExperiments

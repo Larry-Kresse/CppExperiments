@@ -4,7 +4,7 @@
 #include <iostream>
 #include <string>
 
-#include "include/simnet.h"
+#include "SimNet/simnet.h"
 
 int main(int argc, char* argv[])
 {
